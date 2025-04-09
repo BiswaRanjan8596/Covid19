@@ -22,37 +22,30 @@ Requirements to Build the Project:
 ### Wordcloud
 ### Stepwise Implementation
 
-Step 1: Importing Necessary Libraries
+#### Step 1: Importing Necessary Libraries
 The task is simple, once the installation of all the required libraries is successful, they need to be imported to the working space, since they will provide the additional support for analysis and visualization.
 
-Example: importing libraries
-
+#### Example: importing libraries
 
 #Data analysis and Manipulation
+
 import plotly.graph_objs as go
 import plotly.io as pio
 import plotly.express as px
 import pandas as pd
 
 #Data Visualization
+
 import matplotlib.pyplot as plt
 
 #Importing Plotly
+
 import plotly.offline as py
 py.init_notebook_mode(connected=True)
 
-Initializing Plotly
+#Initializing Plotly
+
 pio.renderers.default = 'colab'
-Step 2: Importing the Datasets
-Importing three datasets into this project
 
-covid– This dataset contains Country/Region, Continent,  Population, TotalCases, NewCases, TotalDeaths, NewDeaths,  TotalRecovered, NewRecovered, ActiveCases, Serious, Critical, Tot Cases/1M pop, Deaths/1M pop, TotalTests, Tests/1M pop, WHO Region, iso_alpha.
-covid_grouped– This dataset contains Date(from 20-01-22 to 20-07-27), Country/Region, Confirmed, Deaths, Recovered, Active, New cases, New deaths, New recovered, WHO Region, iso_alpha.
-coviddeath– This dataset contains real-world examples of a number of Covid-19 deaths and the reasons behind the deaths.
-To import datasets to the working space pandas read_csv() method can be used.
-
-Syntax:
-
-read_csv(path)
 
 
