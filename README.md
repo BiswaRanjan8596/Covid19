@@ -47,5 +47,19 @@ py.init_notebook_mode(connected=True)
 
 pio.renderers.default = 'colab'
 
+#### Step 2: Importing the Datasets
+Importing three datasets into this project
+
+covid– This dataset contains Country/Region, Continent,  Population, TotalCases, NewCases, TotalDeaths, NewDeaths,  TotalRecovered, NewRecovered, ActiveCases, Serious, Critical, Tot Cases/1M pop, Deaths/1M pop, TotalTests, Tests/1M pop, WHO Region, iso_alpha.
+covid_grouped– This dataset contains Date(from 20-01-22 to 20-07-27), Country/Region, Confirmed, Deaths, Recovered, Active, New cases, New deaths, New recovered, WHO Region, iso_alpha.
+coviddeath– This dataset contains real-world examples of a number of Covid-19 deaths and the reasons behind the deaths.
+To import datasets to the working space pandas read_csv() method can be used.
+
+
+
+Syntax:
+
+read_csv(path)
+
 
 
