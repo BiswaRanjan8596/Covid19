@@ -1,1 +1,1 @@
-[Covid image](https://github.com/BiswaRanjan8596/Covid19/blob/main/OIP.jpeg)
+![Covid image](https://github.com/BiswaRanjan8596/Covid19/blob/main/OIP.jpeg)
