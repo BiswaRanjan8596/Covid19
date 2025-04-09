@@ -11,36 +11,37 @@ Tools and Technologies Used in the Project: Google Colab(Runtime type – GPU).
 
 Requirements to Build the Project: 
 
-Basic knowledge of Python
-Basic understanding of graphs and charts
-Data visualization
-Pandas
-Numpy
-Matplotlib
-Plotly Express
-Choropleth
-Wordcloud
-Stepwise Implementation
+### Basic knowledge of Python
+### Basic understanding of graphs and charts
+### Data visualization
+### Pandas
+### Numpy
+### Matplotlib
+### Plotly Express
+### Choropleth
+### Wordcloud
+### Stepwise Implementation
+
 Step 1: Importing Necessary Libraries
 The task is simple, once the installation of all the required libraries is successful, they need to be imported to the working space, since they will provide the additional support for analysis and visualization.
 
 Example: importing libraries
 
 
-# Data analysis and Manipulation
+#Data analysis and Manipulation
 import plotly.graph_objs as go
 import plotly.io as pio
 import plotly.express as px
 import pandas as pd
 
-# Data Visualization
+#Data Visualization
 import matplotlib.pyplot as plt
 
-# Importing Plotly
+#Importing Plotly
 import plotly.offline as py
 py.init_notebook_mode(connected=True)
 
-# Initializing Plotly
+Initializing Plotly
 pio.renderers.default = 'colab'
 Step 2: Importing the Datasets
 Importing three datasets into this project
