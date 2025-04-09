@@ -1,1 +1,1 @@
-[Image](https://www.bing.com/images/search?q=covid19%20analysis%20picture&view=detailv2&form=IQFRBA&id=77264375541BDD711F9D19E598925CE28731A8ED&selectedindex=0&expw=1920&exph=1080&ccid=gUsF2Na6&ck=7F291B4E6911851F7A8723606158F792&simid=608041574870230909&thid=OIP.gUsF2Na6rDbyTJqEKM2u_AHaEK&idpbck=1&ajaxhist=0&ajaxserp=0&mediaurl=https%3A%2F%2Fcidoc.mini.icom.museum%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F05%2F200309-D-HN545-003.jpg&vt=0&sim=11)
+[Image]("C:\Users\biswa\Downloads\OIP.jpeg")
