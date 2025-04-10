@@ -64,7 +64,6 @@ Requirements to Build the Project:
 |------|-------------|
 | `Covid 19 Analysis.ipynb` | Main Jupyter notebook containing all analysis and visualizations |
 | `README.md` | Project overview and documentation |
-| `dataset.csv` *(optional)* | Source dataset (if included in the repo) |
 
 ---
 
