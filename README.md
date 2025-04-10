@@ -1,5 +1,9 @@
 ![Covid image](https://github.com/BiswaRanjan8596/Covid19/blob/main/Effective-Data-Visualization-In-the-Era-of-COVID-19.jpg)
 
+# 🦠 COVID-19 Data Analysis Project
+
+This project presents a data-driven exploration of the global COVID-19 pandemic using Python and real-world datasets. The analysis uncovers trends in case counts, death rates, recovery statistics, and visual insights across countries and time periods.
+
 
 Covid-19 Analysis and Visualization using Plotly Express
 Last Updated : 02 Sep, 2024
@@ -20,46 +24,69 @@ Requirements to Build the Project:
 ### Plotly Express
 ### Choropleth
 ### Wordcloud
-### Stepwise Implementation
-
-#### Step 1: Importing Necessary Libraries
-The task is simple, once the installation of all the required libraries is successful, they need to be imported to the working space, since they will provide the additional support for analysis and visualization.
-
-#### Example: importing libraries
-
-#Data analysis and Manipulation
-
-import plotly.graph_objs as go
-import plotly.io as pio
-import plotly.express as px
-import pandas as pd
-
-#Data Visualization
-
-import matplotlib.pyplot as plt
-
-#Importing Plotly
-
-import plotly.offline as py
-py.init_notebook_mode(connected=True)
-
-#Initializing Plotly
-
-pio.renderers.default = 'colab'
-
-#### Step 2: Importing the Datasets
-Importing three datasets into this project
-
-covid– This dataset contains Country/Region, Continent,  Population, TotalCases, NewCases, TotalDeaths, NewDeaths,  TotalRecovered, NewRecovered, ActiveCases, Serious, Critical, Tot Cases/1M pop, Deaths/1M pop, TotalTests, Tests/1M pop, WHO Region, iso_alpha.
-covid_grouped– This dataset contains Date(from 20-01-22 to 20-07-27), Country/Region, Confirmed, Deaths, Recovered, Active, New cases, New deaths, New recovered, WHO Region, iso_alpha.
-coviddeath– This dataset contains real-world examples of a number of Covid-19 deaths and the reasons behind the deaths.
-To import datasets to the working space pandas read_csv() method can be used.
 
 
 
-Syntax:
+---
 
-read_csv(path)
+## 📌 Project Objectives
+
+- Analyze COVID-19 case growth over time
+- Visualize top affected countries by confirmed cases and deaths
+- Identify recovery and death rates
+- Perform time series and trend analysis
+- Generate interactive visualizations and insights
+
+---
+
+## 🛠️ Tools & Libraries Used
+
+- **Python**
+- **Pandas** for data cleaning and analysis
+- **Matplotlib** & **Seaborn** for visualization
+- **Plotly** (optional) for interactivity
+- **Jupyter Notebook** for development
+
+---
+
+## 📊 Key Insights
+
+- India, USA, and Brazil had the highest total cases during key stages of the pandemic.
+- Fatality and recovery rates varied significantly across countries and timelines.
+- Case growth visualizations show clear waves corresponding to new variants.
+- Effective use of bar plots, line charts, heatmaps, and pie charts for EDA.
+
+---
+
+## 📁 Project Structure
+
+| File | Description |
+|------|-------------|
+| `Covid 19 Analysis.ipynb` | Main Jupyter notebook containing all analysis and visualizations |
+| `README.md` | Project overview and documentation |
+| `dataset.csv` *(optional)* | Source dataset (if included in the repo) |
+
+---
+
+## 🖼 Sample Visualizations
+
+📈 *(You can add screenshots of your plots here once you upload them to GitHub or use `![](path)` if they’re in your repo.)*
+
+---
+
+## 🔗 Dataset Source
+
+- [Our World in Data – COVID-19 Dataset](https://ourworldindata.org/coronavirus)
+
+---
+
+## 👨‍💻 Author
+
+**Biswa Ranjan Swain**  
+📫 [LinkedIn](https://www.linkedin.com/in/your-profile)  
+📁 [Project Showcase on LinkedIn](#)
+
+
 
 
 
