@@ -82,8 +82,9 @@ Requirements to Build the Project:
 ## 👨‍💻 Author
 
 **Biswa Ranjan Swain**  
-📫 [LinkedIn](https://www.linkedin.com/in/your-profile)  
-📁 [Project Showcase on LinkedIn](#)
+👋 I'm **Biswa Ranjan Swain**, a passionate data analyst with hands-on experience in SQL, Power BI, Tableau, and Python.
+
+📫 [Connect on LinkedIn](https://www.linkedin.com/in/biswa-ranjan-swain-1b72a7158)
 
 
 
